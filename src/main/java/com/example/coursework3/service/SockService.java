@@ -5,10 +5,13 @@ import com.example.coursework3.exception.InvalidSockRequestException;
 import com.example.coursework3.model.Color;
 import com.example.coursework3.model.Size;
 import com.example.coursework3.model.Sock;
+import org.springframework.stereotype.Service;
 
 import javax.naming.InsufficientResourcesException;
 import java.util.HashMap;
 import java.util.Map;
+
+@Service
 
 public class SockService {
     private final Map<Sock, Integer> socks = new HashMap<>();

@@ -1,5 +1,5 @@
 ###
-POST http://localhost:8080/sock
+POST http://localhost:8080/sock/sock
 Content-Type: application/json
 
 {
