@@ -8,3 +8,13 @@ Content-Type: application/json
   "cottonPrecentega" : 52,
   "quentity" : 7
 }
+###
+PUT http://localhost:8080/api/sock
+Content-Type: application/json
+
+{
+  "color": "BLUE",
+  "size": "S",
+  "cottonPrecentega" : 52,
+  "quentity" : 7
+}
